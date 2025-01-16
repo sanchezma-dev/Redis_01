@@ -54,3 +54,7 @@ public class RedisConfig {
 Para hacer las pruebas, he creado un endpoint para el borrado de la caché cuyo parámetro se pasa por argumento.
 Así nos aseguramos que se limpia la caché y redis no se activa en la 1ª llamada.
 
+
+**Nota:**  
+La colección postman se encuentra en ```src/main/resources/postman/11- example redis.postman_collection.json```
+
