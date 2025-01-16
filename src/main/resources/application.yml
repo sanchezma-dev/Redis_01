@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:6060/productos_redis_db
+    username: sa
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    type: redis
